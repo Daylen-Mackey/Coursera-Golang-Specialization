@@ -40,6 +40,7 @@ Steps:
 */
 
 func stringSlice2IntSlice(stringSlice []string) []int {
+
 	sliceLength := len(stringSlice)
 	intSlice := make([]int,0,sliceLength)
 	for _, val := range stringSlice {
